@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body, html{
+    overflow-x: hidden;
+}
+
+.table{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.amount{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 120px;    
+}
+th{
+    cursor: pointer;
+}
+p{
+    font-size: 25px;
+}
+.edit-td .edit-area {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+.edit-controls {
+  position: absolute;
+}
+.edit-td {
+  position: relative;
+  padding: 0;
+}
